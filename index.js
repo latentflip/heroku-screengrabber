@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 
 app.get('/shot.png', function(req, res) {
-  webshot(req.params.url, function(err, renderStream) {
+  webshot(req.query.url, function(err, renderStream) {
     renderStream.pipe(res);
   });
 });
