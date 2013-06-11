@@ -1,0 +1,16 @@
+{
+  "name": "screengrabber",
+  "version": "0.0.1",
+  "description": "Scrapper",
+  "author": "Philip Roberts <latentflip@gmail.com>",
+  "keywords": [
+  ],
+  "dependencies": {
+    "express" : "x.x.x",
+    "webshot" : "0.5.0",
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm" : "1.1.x"
+  }
+}
