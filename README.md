@@ -7,7 +7,7 @@ Screengrabber, that'll run on heroku
 git clone https://github.com/latentflip/heroku-screengrabber.git
 cd heroku-screengrabber
 npm install
-node bootstrap.js
+node index.js
 ```
 
 Then visit localhost:3000/shot.png?url=foo.com.
